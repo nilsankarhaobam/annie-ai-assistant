@@ -1,0 +1,90 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+venv/
+.env/
+.venv/
+ENV/
+env/
+ENV.bak/
+venv.bak/
+
+# Python environment config
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+installer_logs/
+
+# Unit test / coverage
+htmlcov/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# IDEs / editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+logs/
+*.log
+
+# Secrets / local env
+.env
+.env.local
+.env.*.local
+
+# Google ADK / model cache or token stores (if any)
+.adk_cache/
+.cache_adk/
+token.json
+google_api_key.txt
+
+# Local evaluation outputs (optional: keep if you want to submit evidence)
+# If you want to include eval_results.json as proof, remove this line
+evaluation/eval_results.json
+
+# Misc
+*.sqlite3
+*.db
+*.pem
+*.key
+
+venv/
+__pycache__/
+*.env
+*.log
+logs/
+evaluation/__pycache__/
+utils/__pycache__/
+agents/__pycache__/
+*.pyc
