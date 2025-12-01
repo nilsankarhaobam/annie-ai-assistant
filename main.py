@@ -30,7 +30,7 @@ async def chat_demo():
         app_name=APP_NAME,      
         session_service=session_service,
         memory_service=memory_service,
-        plugins=[LoggingPlugin()]
+        plugins=[], #plugins=[LoggingPlugin()] #remove LoggingPlugin() to hide logs
     )
 
     # Create new session (use keyword arguments)

@@ -14,7 +14,7 @@ logging.basicConfig(
     format="%(asctime)s [%(levelname)s] %(message)s",
     handlers=[
         logging.FileHandler(LOG_FILE, encoding="utf-8"),
-        logging.StreamHandler()  # Console logs
+        # logging.StreamHandler()  # Console logs #comment out for hide the log detail in terminal chat
     ]
 )
 
